@@ -385,7 +385,7 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-
+        
         .hero p {
             font-size: 1.2rem;
             color: var(--text-secondary);
@@ -397,12 +397,18 @@
         }
 
         .hero-features {
-            display: flex;
+            display: inline-flex;
             flex-wrap: wrap;
             gap: 8px 20px;
             font-size: 0.95rem;
             color: var(--text-secondary);
             margin-bottom: 16px;
+            padding: 12px 24px;
+            border-radius: 60px;
+            background: radial-gradient(circle at 40% 40%, rgba(61, 82, 30, 0.15), transparent 70%);
+            border: 1px solid rgba(61, 82, 30, 0.1);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
             opacity: 0;
             animation: fadeUp 0.9s 0.7s forwards;
         }
@@ -1463,9 +1469,9 @@
             <div class="hero-grid">
                 <div class="hero-content">
                     <h1>
-                        Мы создаем вещи,<br />
-                        которые говорят<br />
-                        <span class="highlight">о вашем бренде</span>
+                        <span class="typewriter"> Мы создаем вещи,<br />
+                        которые говорят о<br />
+                        <span class="highlight">вашем бренде</span>
                     </h1>
                     <p>
                         Полиграфия, корпоративный мерч и сувенирная продукция под ключ — от идеи и дизайна до производства, брендирования и доставки.
