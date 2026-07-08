@@ -1847,7 +1847,7 @@
             // Дублируем массив 2 раза для бесконечного эффекта
             const doubled = [...images, ...images];
             doubled.forEach(src => {
-                html += `<img src="${src}" alt="Товар" loading="lazy" />`;
+                html += `<img src="${src}" loading="lazy" />`;
             });
             track.innerHTML = html;
 
